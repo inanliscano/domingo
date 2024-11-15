@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Academy - Learn & Build</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+        <img src="logo.png" alt="logo">
+        </div>
+        <h1>Code Academy: Learn HTML</h1>
+        <nav>
+            <ul>
+                <li><a href="file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit%20user%20files/Peta1Etech/peta.html">Home</a></li>
+                <li><a href="file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit%20user%20files/Peta1Etech/about.html">About</a></li>
+                <li style="color:#aab5ff">Tutorials</li>
+                <li><a href="file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit%20user%20files/Peta1Etech/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h2>HTML Text Formatting</h2>
+                <p>HTML contains several elements for defining text with a special meaning.</p>
+            </div>
+        </section>
+
+        <section class="tutorials">
+            <h2>Codes/Tags</h2>
+            <div class="tutorial-grid">            
+                <div class="tutorial-card">
+                    <h3>HTML Text Formatting</h3>
+                    <p>Formatting elements were designed to display special types of text:<br><br>• <code>&lt;b&gt;</code> - Bold text<br>• <code>&lt;strong&gt;</code> - Important text tags.<br>• <code>&lt;i&gt;</code> - italic text<br>• <code>&lt;em&gt;</code> - Emphasized text<br>• <code>&lt;mark&gt;</code> - Marked text<br>• <code>&lt;small&gt;</code> - Smaller text<br>• <code>&lt;del&gt;</code> - Deleted text<br>• <code>&lt;ins&gt;</code> - Inserted text<br>• <code>&lt;sub&gt;</code> - Subscript text<br>• <code>&lt;sup&gt;</code> - Superscript text</p>
+               
+                </div>
+                <div class="tutorial-card">
+                    <h3>Example</h3>
+                    <p><code>&lt;b&gt;</code>Bold text<code>&lt;/b&gt;</code><br><code>&lt;strong&gt;</code>Important text tags<code>&lt;/strong&gt;</code><br><code>&lt;i&gt;</code>Italic text<code>&lt;/i&gt;</code><br> <code>&lt;em&gt;</code>Emphasized text<code>&lt;/em&gt;</code><br> <code>&lt;mark&gt;</code>Marked text<code>&lt;/mark&gt;</code><br> <code>&lt;small&gt;</code>Smaller text<code>&lt;/small&gt;</code><br> <code>&lt;del&gt;</code>Deleted text<code>&lt;/del&gt;</code><br> <code>&lt;ins&gt;</code>Inserted text<code>&lt;/ins&gt;</code><br> <code>&lt;sub&gt;</code> Subscript text<code>&lt;/sub&gt;</code><br> <code>&lt;sup&gt;</code>Superscript text<code>&lt;/sup&gt;</code>
+                   
+                </div>
+                <div class="tutorial-card">
+                    <h3>Result</h3>
+                    <b>Heading 1</b><br><strong>Heading 2</strong><br><i>Heading 3</i><br><em>Heading 4</em><br><mark>Heading 5</mark><br><small>Heading 6</small><br><del>Deleted text</del><br><ins>Inserted text</ins><br><sub>Subscript text</sub><br<sup>Superscript text</sup>
+                </div>
+                
+                <div class="tutorial-card">
+                    <h3>Try it Yourself</h3>
+                    <textarea id="codeEditor">
+                    </textarea><br>
+                    <button onclick="runCode()">Run Code</button>
+    <iframe id="outputFrame"></iframe>
+
+    <script>
+        function runCode() {
+            const code = document.getElementById('codeEditor').value;
+            const iframe = document.getElementById('outputFrame');
+            iframe.srcdoc = code;
+        }
+    </script>
+              </div>   
+                
+                <div class="pagination">
+  <a href="file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit%20user%20files/Peta1Etech/tutorial2.html">❮</a>
+  <a href="file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit%20user%20files/Peta1Etech/tutorial4.html">❯</a>
+  
+</div>
+
+            </div>
+        </section>
+     </main>
+     
+
+    <footer>
+        <p>&copy; 2024 Code Academy. All rights reserved.</p>
+    </footer>
+</body>
+</html>

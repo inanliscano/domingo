@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Academy - Learn & Build</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+        <img src="logo.png" alt="logo">
+        </div>
+        <h1>Code Academy: Learn HTML</h1>
+        <nav>
+            <ul>
+                <li><a href="peta.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li style="color:#aab5ff">Tutorials</li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h2>HTML Comment</h2>
+                <p>HTML comments are not displayed in the browser, but they can help document your HTML source code. Comments are also great for debugging HTML, because you can comment out HTML lines of code, one at a time, to search for errors.</p>
+            </div>
+        </section>
+
+        <section class="tutorials">
+            <h2>Codes/Tags</h2>
+            <div class="tutorial-grid">            
+                <div class="tutorial-card">
+                    <h3>HTML Comment</h3>
+                    <p>You can add comments to your HTML source by using the following syntax:<br><br><code>&lt;!-- Write your comments here --&gt;</code><br><br>Notice that there is an exclamation point (!) in the start tag, but not in the end tag.
+                </div>
+                
+                 <div class="tutorial-card">
+                    <h3>Add Comment</h3>
+                    <p>With comments you can place notifications and reminders in your HTML code:<br><br><code>&lt;!-- Write your comments here --&gt;</code><br><br><code>&lt;p&gt;</code>this is paragraph.<code>&lt;/p&gt;</code><br><br><code>&lt;!-- Remember to add more information here --&gt;</code></p>
+               
+                </div>
+                <div class="tutorial-card">
+                    <h3>Example</h3>
+                    <p><code>&lt;!DOCTYPE html&gt;</code><br>
+<code>&lt;html&gt;</code><br>
+<code>&lt;body&gt;</code><br><br>
+<code>&lt;!-- Write your comments here --&gt;</code><br><br><code>&lt;p&gt;</code>this is paragraph.<code>&lt;/p&gt;</code><br><br><code>&lt;!-- Remember to add more information here --&gt;</code><br><br>
+<code>&lt;/body&gt;</code><br>
+<code>&lt;/html&gt;</code></p>
+                   
+                </div>
+                <div class="tutorial-card">
+                    <h3>Result</h3>
+                  <p>this is paragraph.</p>
+                </div>
+                
+                <div class="tutorial-card">
+                    <h3>Try it Yourself</h3>
+                    <textarea id="codeEditor">
+                    </textarea><br>
+                    <button onclick="runCode()">Run Code</button>
+    <iframe id="outputFrame"></iframe>
+
+    <script>
+        function runCode() {
+            const code = document.getElementById('codeEditor').value;
+            const iframe = document.getElementById('outputFrame');
+            iframe.srcdoc = code;
+        }
+    </script>
+              </div>   
+                
+                <div class="pagination">
+  <a href="tutorial3.html">❮</a>
+</div>
+
+            </div>
+        </section>
+     </main>
+     
+
+    <footer>
+        <p>&copy; 2024 Code Academy. All rights reserved.</p>
+    </footer>
+</body>
+</html>
